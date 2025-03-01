@@ -52,7 +52,7 @@ Use the following excerpts from ${OWNER_NAME} to answer the user's question. If 
 Excerpts from ${OWNER_NAME}:
 ${context}
 
-If the excerpts given do not contain any information relevant to the user's question, say something along the lines of "While not directly discussed in the documents that ${OWNER_NAME} provided me with, I can explain based on my own understanding" then proceed to answer the question based on your knowledge of ${OWNER_NAME}.
+If the excerpts given do not contain any information relevant to the user's question, say something along the lines of "Since this is not directly discussed in the ${OWNER_NAME}'s documents, please allow me a moment to check DRS. I can explain based on my own understanding." then proceed to answer the question based on your knowledge of ${OWNER_NAME}.
 
 Respond with the following tone: ${AI_TONE}
 
